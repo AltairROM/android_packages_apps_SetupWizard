@@ -75,6 +75,7 @@
     <string name="gesture_navigation">Gesture navigation</string>
     <string name="navbar_navigation">3-button navigation</string>
     <string name="hide_gesture_hint">Hide gestural navigation hint</string>
+    <string name="invert_layout">Invert navigation bar layout</string>
 
     <!-- Theme page -->
     <string name="setup_theme">Theme</string>
