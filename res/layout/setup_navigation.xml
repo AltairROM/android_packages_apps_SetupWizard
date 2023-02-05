@@ -59,16 +59,35 @@
 
                     </RadioGroup>
 
-                    <CheckBox
-                        android:id="@+id/hide_navigation_hint"
+                    <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/hide_gesture_hint"
-                        android:layout_marginTop="0dp"
-                        android:layout_marginBottom="6dp"
-                        android:layout_marginLeft="-6dp"
-                        android:paddingLeft="18dp"
-                        style="@style/SudCheckBox" />
+                        android:orientation="vertical"
+                        android:clipChildren="false">
+
+                        <CheckBox
+                            android:id="@+id/hide_navigation_hint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hide_gesture_hint"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="6dp"
+                            android:layout_marginLeft="-6dp"
+                            android:paddingLeft="18dp"
+                            style="@style/SudCheckBox" />
+
+                        <CheckBox
+                            android:id="@+id/invert_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/invert_layout"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="6dp"
+                            android:layout_marginLeft="-6dp"
+                            android:paddingLeft="18dp"
+                            style="@style/SudCheckBox" />
+
+                    </RelativeLayout>
                 </LinearLayout>
             </ScrollView>
         </FrameLayout>
@@ -80,4 +99,3 @@
 
     </LinearLayout>
 </com.google.android.setupdesign.GlifLayout>
-
