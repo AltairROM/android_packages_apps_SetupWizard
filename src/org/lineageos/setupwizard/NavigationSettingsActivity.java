@@ -30,7 +30,7 @@ import org.lineageos.setupwizard.util.SetupWizardUtils;
 
 public class NavigationSettingsActivity extends BaseSetupWizardActivity {
 
-    private static final String KEY_NAV_BAR_INVERSE = "sysui_nav_bar_inverse";
+    private static final String KEY_NAVIGATIONBAR_KEY_ORDER = "navigationbar_key_order";
 
     private SetupWizardApp mSetupWizardApp;
 
@@ -175,7 +175,7 @@ public class NavigationSettingsActivity extends BaseSetupWizardActivity {
                 UserHandle.USER_CURRENT);
         boolean invertLayout = mInvertLayout.isChecked();
         Settings.Secure.putIntForUser(getContentResolver(),
-                KEY_NAV_BAR_INVERSE, invertLayout ? 1 : 0,
+                KEY_NAVIGATIONBAR_KEY_ORDER, invertLayout ? 1 : 0,
                 UserHandle.USER_CURRENT);
         super.onNextPressed();
     }
