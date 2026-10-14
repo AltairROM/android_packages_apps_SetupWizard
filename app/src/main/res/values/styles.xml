@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     SPDX-FileCopyrightText: 2013 The CyanogenMod Project
+     SPDX-FileCopyrightText: The CyanogenMod Project
      SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-FileCopyrightText: Altair ROM Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
@@ -31,7 +32,7 @@
     <style name="WelcomeTitle">
         <item name="android:textSize">@dimen/welcome_title_text_size</item>
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:gravity">start</item>
+        <item name="android:gravity">center</item>
         <item name="android:paddingBottom">@dimen/welcome_title_padding_bottom</item>
         <item name="android:lineHeight">@dimen/welcome_title_line_height</item>
     </style>
